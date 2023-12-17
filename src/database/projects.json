@@ -1,0 +1,16 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Website Monitoring",
+      "slug": "website-monitoring",
+      "body": "<h1>Hello World!</h1>"
+    },
+    {
+      "id": 2,
+      "name": "Website Presensi",
+      "slug": "website-presensi",
+      "body": "<h1>Hello World!</h1>"
+    }
+  ]
+}
