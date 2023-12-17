@@ -1,5 +1,4 @@
-import Link from "next/link";
-import React from "react";
+import UserLogoLink from "./UserLogoLink";
 
 export default function UserLogoDropdown() {
   return (
@@ -9,27 +8,19 @@ export default function UserLogoDropdown() {
         role="button"
         className="btn btn-ghost btn-circle avatar"
       >
-        <div className="w-10 rounded-full">
+        <div className="w-8 rounded-full">
           <img
-            alt="Tailwind CSS Navbar component"
-            src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
+            alt={process.env.APP_NAME ?? "_dvtor"}
+            src="https://ik.imagekit.io/ennmjhpgtw/icon/88477509.jpeg?updatedAt=1702815593190"
           />
         </div>
       </div>
       <ul
         tabIndex={0}
-        className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-200 rounded-box w-24"
+        className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-fuchsia-800 rounded-box w-24"
       >
-        <li>
-          <Link href={"/"} className="hover:text-fuchsia-400">
-            About
-          </Link>
-        </li>
-        <li>
-          <Link href={"/"} className="hover:text-fuchsia-400">
-            Resume
-          </Link>
-        </li>
+        <UserLogoLink name="About" href="/" />
+        <UserLogoLink name="Resume" href="/" />
       </ul>
     </div>
   );

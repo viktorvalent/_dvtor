@@ -2,15 +2,21 @@
   "data": [
     {
       "id": 1,
-      "name": "Website Monitoring",
+      "title": "Website Monitoring",
+      "desc": "Website monitoring yang dapat diintegrasikan dengan arduino (IoT)",
       "slug": "website-monitoring",
-      "body": "<h1>Hello World!</h1>"
+      "body": "<h1>Hello World!</h1>",
+      "created_date": "2023-12-18",
+      "created_time": "12:01:00"
     },
     {
       "id": 2,
-      "name": "Website Presensi",
+      "title": "Website Presensi",
+      "desc": "Website monitoring yang dapat melakukan presensi",
       "slug": "website-presensi",
-      "body": "<h1>Hello World!</h1>"
+      "body": "<h1>Hello World!</h1>",
+      "created_date": "2023-12-18",
+      "created_time": "12:01:00"
     }
   ]
 }
