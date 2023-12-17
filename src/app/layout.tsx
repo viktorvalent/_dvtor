@@ -17,6 +17,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" data-theme={getCookie("theme") ?? "dark"}>
+      <head>
+        <link
+          rel="icon"
+          href="https://ik.imagekit.io/ennmjhpgtw/icon/88477509.jpeg?updatedAt=1702815593190"
+          sizes="any"
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

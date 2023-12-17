@@ -16,7 +16,7 @@ export default function Hero() {
           <p className="py-6">
             Website portfolio sekaligus blog pribadi saya hehe :D
           </p>
-          <button className="btn btn-primary">Coming soon</button>
+          <button className="btn bg-base-200">Coming soon...</button>
         </div>
       </div>
     </div>

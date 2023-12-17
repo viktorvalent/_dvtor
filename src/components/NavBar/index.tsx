@@ -2,22 +2,21 @@ import React from "react";
 import Link from "next/link";
 import NavLink from "./NavLink";
 import ThemeSwapper from "../ThemeSwapper";
-import style from "./NavBar.module.css";
 import UserLogoDropdown from "./UserLogoDropdown";
+import style from "./NavBar.module.css";
 
 export default function NavBar() {
   return (
     <div className="navbar bg-base-100 justify-center">
-      <div className="py-3 w-full max-w-6xl">
+      <div className="py-2 w-full max-w-6xl">
         <div className="flex-1">
           <Link
             href="/"
             className={
-              style.logoTitle +
-              " text-xl italic font-medium hover:text-fuchsia-600"
+              style.logo + " text-lg italic font-medium hover:text-fuchsia-600"
             }
           >
-            {process.env.APP_NAME}
+            {process.env.APP_NAME ?? "_dvtor"}
           </Link>
         </div>
         <div className="flex-none">
