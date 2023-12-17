@@ -3,7 +3,7 @@ import Link from "next/link";
 import NavLink from "./NavLink";
 import ThemeSwapper from "../ThemeSwapper";
 import UserLogoDropdown from "./UserLogoDropdown";
-import style from "./NavBar.module.css";
+import style from "./Navbar.module.css";
 
 export default function NavBar() {
   return (
