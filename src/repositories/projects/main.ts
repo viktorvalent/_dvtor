@@ -22,5 +22,8 @@ const getAllProjectWithPaginate = (
     pageSize * pageNumber + pageNumber
   );
 };
+// module.exports = { getAllProject, getProjectBySlug, getAllProjectWithPaginate };
 
-export default { getAllProject, getProjectBySlug, getAllProjectWithPaginate };
+const method = { getAllProject, getProjectBySlug, getAllProjectWithPaginate };
+
+export default method;

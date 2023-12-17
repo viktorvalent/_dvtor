@@ -19,7 +19,7 @@ export default function NavBar() {
             {process.env.APP_NAME ?? "_dvtor"}
           </Link>
         </div>
-        <div className="flex-none">
+        <div className="flex-none hidden md:block">
           <ul className="menu menu-horizontal px-1">
             <NavLink name="Home" />
             <NavLink name="Article" />

@@ -10,7 +10,7 @@ export default function UserLogoLink({ name, href = "/" }: Props) {
     <li>
       <Link
         href={href}
-        className="text-gray-100 hover:text-fuchsia-400 hover:bg-slate-900"
+        className="text-gray-100 dark:hover:text-gray-200 hover:text-emerald-900 hover:bg-gray-700"
       >
         {name}
       </Link>

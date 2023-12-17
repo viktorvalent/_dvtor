@@ -3,7 +3,10 @@
 import React, { useState, useEffect } from "react";
 import { getCookie, setCookie } from "cookies-next";
 
-export default function ThemeSwapper() {
+interface Prop {
+  customClass?: string | "";
+}
+export default function ThemeSwapper({ customClass }: Prop) {
   const [theme, setTheme] = useState(
     getCookie("theme") ? getCookie("theme") : "dark"
   );
